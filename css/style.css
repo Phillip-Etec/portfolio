@@ -20,13 +20,13 @@ form small {
 }
 
 .navbar {
- border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+ border-bottom: 1.0pt solid rgba(0, 0, 0, 0.1);
 }
 
 .logo-text {
  color: #F78B42 !important;
  font-family: "Lilita One";
- font-size: 38px;
+ font-size: 28.0pt;
 }
 
 .navbar .nav-link {
@@ -47,18 +47,18 @@ form small {
 
 .text1 {
  font-weight: 400;
- font-size: 24px;
+ font-size: 20.0pt;
 }
 
 .text2 {
  /*padding-top: 20px;*/
  font-weight: 700;
- font-size: 42px;
+ font-size: 36.0pt;
 }
 
 .text3 {
  /*padding-bottom: 40px;*/
- font-size: 24px;
+ font-size: 22.0pt;
  font-weight: 700;
  color: #EE4051;
 }
@@ -101,12 +101,13 @@ form small {
 
 #aboutme p {
  font-family: "Poppins";
+ /*font-family: "Montserrat Alternates";*/
  font-weight: 400;
- font-size: 16px;
+ font-size: 12.0pt;
 }
 
 #aboutme h3 {
- font-family: "Balsamiq Sans";
+ font-family: "Montserrat Alternates";
 }
 
 .section-intro {
@@ -116,14 +117,14 @@ form small {
 
 .section-intro h1 {
  font-weight: 700;
- font-size: 28px;
- font-family: "Balsamiq Sans";
+ font-size: 24.0pt;
+ font-family: "Noto Sans";
  color: #EE4051;
 }
 
 .section-intro p {
  font-family: "Poppins";
- font-size: 16px;
+ font-size: 12.0pt;
  font-weight: 400;
 }
 
@@ -136,16 +137,16 @@ form small {
 }
 
 .case-study-item h5 {
- font-family: "Balsamiq Sans";
+ font-family: "Noto Sans";
  font-weight: 700;
- font-size: 18px;
+ font-size: 15.0pt;
 }
 
 .case-study-item p {
  font-family: "Poppins";
  font-weight: 400;
- font-size: 14px;
- line-height: 22px;
+ font-size: 12.0pt;
+ line-height: 20.0pt;
 }
 
 .overlay-card {
@@ -201,7 +202,7 @@ form small {
 }
 
 #contact h3 {
- font-family: "Balsamiq Sans";
+ font-family: "Noto Sans";
  font-weight: 700;
  font-size: 24px;
 }
@@ -230,8 +231,8 @@ footer {
 }
 
 footer .social-icons a {
- color: #fff;
- font-size: 24px;
+ color: #FFFFFF;
+ font-size: 18.0pt;
  text-decoration: none;
  padding-left: 1em;
  padding-top: 1.5em;
@@ -247,4 +248,8 @@ footer .social-icons a:hover {
 
 .img-round {
     border-radius: 4.0pt; 
+}
+
+.mont {
+ font-family: "Montserrat Alternates";
 }
