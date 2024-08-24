@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Phillip Anselmo</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand logo-text" href="#home">Phill.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,40 +37,71 @@
         </div>
       </div>
     </nav>
+
+    <!--<section id="home">-->
+      <!--<div class="container text-center to-container">-->
+        <!--<div class="row flex-lg-row-reverse align-items-center g-5 py-5">-->
+            <!--<div class="col-md-10">-->
+              <!--<h5 class="text1">Olá, eu sou</h5>-->
+              <!--<h1 class="text2">Phillip Anselmo Matos</h1>-->
+              <!--<h5 class="text3">Estudante de Análise e Desenvolvimento de Sistemas</h3>-->
+              <!--<a href="#contact" class="btn btn-brand">Contacte-me</a>-->
+              <!--<img class="home-img col-md-6 col-xl-5 col-12" src="./H1.svg" alt="">-->
+            <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</section>-->
+
     <section id="home">
-      <div class="container text-center top-container">
-        <div class="row justify-content-center">
-          <div class="col-md-10">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="H1.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6 align-items-center">
             <h5 class="text1">Olá, eu sou</h5>
+            <!--<h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>-->
             <h1 class="text2">Phillip Anselmo Matos</h1>
             <h5 class="text3">Estudante de Análise e Desenvolvimento de Sistemas</h3>
-            <a href="#contact" class="btn btn-brand">Contacte-me</a>
-            <br>
-            <img class="home-img col-md-6 col-xl-5 col-12" src="./H1.svg" alt="">
+            <!--<p class="lead">Quickly design and customize responsive mobile-firs  sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>-->
+            <div class="d-grid gap-2 d-md-flex align-items-center">
+              <a href="#contact">
+                <button type="button" class="  btn-lg px-4 me-md-2 btn-brand">Contato</button>
+              </a>
+              <a href="https://file.io/c3HHnGqGIrgh">
+                <button type="button" class=" btn-lg px-4 btn-dwnld">Baixar Currículo</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <section id="aboutme">
       <div class="row">
         <div class="col-md-9">
           <p>- Quem sou eu?</p>
           <h3>Um pouco sobre mim</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Platea dolor adipiscing eget pretium lacus nibh
-          pulvinar sit. Suspendisse aliquet augue ornare nec rutrum nisi. Eu vulputate tempor, eu lacus. Maecenas
-          egestas egestas rutrum nascetur facilisi ut ullamcorper enim in. Orci a senectus diam tortor, sodales. Et
-          dignissim leo, volutpat amet. Amet neque posuere tincidunt mauris mi. Hac diam ultrices vel non suscipit
-          semper iaculis. Id scelerisque luctus orci, in duis arcu. Sit et, vel venenatis, fermentum urna sem blandit
-          suscipit. Imperdiet magna vitae feugiat in nibh. Bibendum porta ipsum enim varius orci condimentum.
-          Auctor tellus cursus vitae, quam vitae volutpat sit eget quis. Fames bibendum vel lorem odio sed ornare sed
-          lorem. Faucibus donec vel viverra feugiat scelerisque vel nunc tincidunt. Orci integer non maecenas viverra
-          feugiat odio lectus imperdiet elit. Est vitae vel vestibulum cras amet in malesuada. Viverra tincidunt eget
-          tellus lorem dis neque pretium. Nec nibh aenean arcu a egestas netus a pulvinar. Tristique vel sit amet duis
-          massa nullam mi, in euismod. Odio dapibus etiam donec tristique id pellentesque. In duis libero facilisis ac.
-          </p>
+          <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Platea dolor adipiscing eget pretium lacus nibh
+            pulvinar sit. Suspendisse aliquet augue ornare nec rutrum nisi. Eu vulputate tempor, eu lacus. Maecenas
+            egestas egestas rutrum nascetur facilisi ut ullamcorper enim in. Orci a senectus diam tortor, sodales. Et
+            dignissim leo, volutpat amet. Amet neque posuere tincidunt mauris mi. Hac diam ultrices vel non suscipit
+            semper iaculis. Id scelerisque luctus orci, in duis arcu. Sit et, vel venenatis, fermentum urna sem blandit
+            suscipit. Imperdiet magna vitae feugiat in nibh. Bibendum porta ipsum enim varius orci condimentum.
+            Auctor tellus cursus vitae, quam vitae volutpat sit eget quis. Fames bibendum vel lorem odio sed ornare sed
+            lorem. Faucibus donec vel viverra feugiat scelerisque vel nunc tincidunt. Orci integer non maecenas viverra
+            feugiat odio lectus imperdiet elit. Est vitae vel vestibulum cras amet in malesuada. Viverra tincidunt eget
+            tellus lorem dis neque pretium. Nec nibh aenean arcu a egestas netus a pulvinar. Tristique vel sit amet duis
+            massa nullam mi, in euismod. Odio dapibus etiam donec tristique id pellentesque. In duis libero facilisis ac.
+            </p>
+          </blockquote>
         </div>
       </div>
     </section>
+
+    <div class="container divider"></div>
+
     <section id="case-study">
       <div class="row">
         <div class="col-12 section-intro">
@@ -78,45 +109,39 @@
           <p>Alguns projetos que eu fiz ou participei...</p>
         </div>
       </div>
-      <div class="container">
-        <div class="row justify-content-around gy-4">
-          <div class="col-lg-4 col-sm-6">
-            <div class="case-study-item">
-              <div>
-                <h5>Refinances</h5>
-              </div>
-              <img class="w-100 h-100" src="./img/Cover 1.png" alt="">
-              <div class="case-study-overlay">
-                <div>
-                  <p>Um aplicativo de finanças com funções de metas.</p>
-                </div>
-                <div class="overlay">
-                  <div class="overlay-card">
-                    <div>
-                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M18 0C8.055 0 0 8.055 0 18C0 25.965 5.1525 32.6925 12.3075 35.0775C13.2075 35.235 13.545 34.695 13.545 34.2225C13.545 33.795 13.5225 32.3775 13.5225 30.87C9 31.7025 7.83 29.7675 7.47 28.755C7.2675 28.2375 6.39 26.64 5.625 26.2125C4.995 25.875 4.095 25.0425 5.6025 25.02C7.02 24.9975 8.0325 26.325 8.37 26.865C9.99 29.5875 12.5775 28.8225 13.6125 28.35C13.77 27.18 14.2425 26.3925 14.76 25.9425C10.755 25.4925 6.57 23.94 6.57 17.055C6.57 15.0975 7.2675 13.4775 8.415 12.2175C8.235 11.7675 7.605 9.9225 8.595 7.4475C8.595 7.4475 10.1025 6.975 13.545 9.2925C14.985 8.8875 16.515 8.685 18.045 8.685C19.575 8.685 21.105 8.8875 22.545 9.2925C25.9875 6.9525 27.495 7.4475 27.495 7.4475C28.485 9.9225 27.855 11.7675 27.675 12.2175C28.8225 13.4775 29.52 15.075 29.52 17.055C29.52 23.9625 25.3125 25.4925 21.3075 25.9425C21.96 26.505 22.5225 27.585 22.5225 29.2725C22.5225 31.68 22.5 33.615 22.5 34.2225C22.5 34.695 22.8375 35.2575 23.7375 35.0775C27.3108 33.8711 30.4158 31.5745 32.6155 28.511C34.8152 25.4476 35.9989 21.7714 36 18C36 8.055 27.945 0 18 0Z"
-                                                  fill="white" />
-                      </svg>
-                    </div>
-                    <div>
-                      <small class="skills">HTML</small>
-                      <small class="skills">CSS</small>
-                      <small class="skills">Javasript</small>
-                    </div>
-                    <div>
-                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M18 0C8.0748 0 0 8.0748 0 18C0 27.9252 8.0748 36 18 36C27.9252 36 36 27.9252 36 18C36 8.0748 27.9252 0 18 0ZM3.6 18C3.6 16.3818 3.8808 14.8284 4.3758 13.3758L7.2 16.2L10.8 19.8V23.4L14.4 27L16.2 28.8V32.2758C9.1098 31.3848 3.6 25.3296 3.6 18ZM29.394 26.7714C28.2186 25.8246 26.4366 25.2 25.2 25.2V23.4C25.2 22.4452 24.8207 21.5295 24.1456 20.8544C23.4705 20.1793 22.5548 19.8 21.6 19.8H14.4V14.4C15.3548 14.4 16.2705 14.0207 16.9456 13.3456C17.6207 12.6705 18 11.7548 18 10.8V9H19.8C20.7548 9 21.6705 8.62072 22.3456 7.94558C23.0207 7.27045 23.4 6.35478 23.4 5.4V4.6602C28.6704 6.8004 32.4 11.97 32.4 18C32.3997 21.1765 31.3421 24.2624 29.394 26.7714Z"
-                            fill="white" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4 h-100">
+          <div class="col">
+            <div class="card text-center border-light">
+              <img src="./img/Cover 1.png" class="card-img-top img-round">
+              <div class="card-body ">
+                <a class="link-dark" href="https://github.com/Almeida154/refinances" target="_blank"><h5 class="card-title">Refinances <i class="fa-brands fa-github"></i></h5></a>
+                <p class="card-text">Meu TCC na Etec de Guaianases, um aplicativo mobile de gerenciamento de finanças, com o backend escrito em Typescript </p>
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card text-center border-light">
+              <img src="./img/javaapi.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a class="link-dark" href="https://github.com/Phillip-Etec/desafio-Clientes-Enderecos" target="_blank"><h5 class="card-title">Desafio Clientes Enderecos <i class="fa-brands fa-github"></i></h5></a>
+                <p class="card-text">Desafio de admissão da empresa muralis, uma API restful, escrita em java, com maven.</p>
+              </div>
+            </div>
+          </div>
+          <!--<div class="col">-->
+            <!--<div class="card text-center border-light">-->
+              <!--<img src="./img/grey.jpg" class="card-img-top" alt="...">-->
+              <!--<div class="card-body">-->
+                <!--<h5 class="card-title">Card title</h5>-->
+                <!--<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+      </div>
     </section>
+
+    <div class="container divider"></div>
+
     <section id="stack">
       <div class="row">
         <div class="col-12 section-intro">
@@ -124,18 +149,79 @@
           <p>Habilidades das quais eu adquiri ao longo dos anos incluem, mas não se limitam à:</p>
         </div>
       </div>
-      <div class="container">
-        <div class="col-md-1">
-          <h2 class="badge rounded-pill bg-primary">Desenvolvimento Back-end</span>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center border-light">
+            <!--<img src="./img/grey.jpg" class="card-img-top" alt="img/grey.jpg">-->
+            <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="130" viewBox="0 0 100 100">
+              <path fill="#fefdef" d="M82,63.613V36.387c0-3.008-1.603-5.789-4.211-7.293L54.211,15.48c-2.606-1.504-5.814-1.504-8.421,0	L22.211,29.094C19.605,30.598,18,33.379,18,36.387v27.227c0,3.008,1.605,5.789,4.211,7.293L45.789,84.52	c2.607,1.504,5.816,1.504,8.421,0l23.579-13.613C80.397,69.402,82,66.621,82,63.613"></path><path fill="#444445" d="M76.843,33.356L53.346,46.411C51.281,47.558,50,49.733,50,52.096v30.022	c0,1.812,1.948,2.959,3.534,2.079l25.434-14.131c0.839-0.701,1.526-1.549,2.032-2.5V35.804C81,33.67,78.708,32.319,76.843,33.356z"></path><path fill="#fefdef" d="M60.092,52.778c0.189-0.096,0.345,0.022,0.347,0.269l0.02,2.021c0.845-0.335,1.58-0.426,2.247-0.271	c0.145,0.037,0.209,0.234,0.15,0.468l-0.445,1.79c-0.037,0.136-0.111,0.273-0.202,0.357c-0.04,0.039-0.079,0.067-0.118,0.088	c-0.061,0.03-0.12,0.04-0.175,0.029c-0.305-0.069-1.027-0.227-2.164,0.349c-1.192,0.605-1.61,1.64-1.602,2.408	c0.01,0.92,0.482,1.199,2.109,1.228c2.168,0.035,3.104,0.984,3.126,3.165c0.024,2.146-1.122,4.448-2.873,5.858l0.039,2.003	c0.002,0.241-0.153,0.517-0.344,0.613l-1.186,0.682c-0.189,0.096-0.345-0.022-0.347-0.263l-0.02-1.969	c-1.016,0.423-2.043,0.524-2.7,0.261c-0.125-0.049-0.179-0.232-0.128-0.441l0.429-1.809c0.034-0.141,0.109-0.285,0.212-0.376	c0.035-0.035,0.074-0.062,0.111-0.081c0.067-0.034,0.133-0.042,0.19-0.02c0.707,0.237,1.612,0.126,2.484-0.315	c1.105-0.559,1.846-1.688,1.834-2.809c-0.01-1.016-0.561-1.438-1.9-1.448c-1.704,0.003-3.293-0.33-3.32-2.84	c-0.022-2.067,1.053-4.216,2.754-5.575L58.6,54.13c-0.002-0.248,0.15-0.52,0.344-0.62L60.092,52.778z"></path><path fill="#4da925" d="M71.572,68.64l-5.704,3.185c-0.109,0.061-0.244-0.019-0.244-0.143V70.43	c0-0.113,0.061-0.217,0.16-0.273l5.704-3.185c0.111-0.061,0.246,0.019,0.246,0.145v1.248C71.734,68.48,71.672,68.584,71.572,68.64"></path><path fill="#1f212b" d="M44,78.213c-0.085,0-0.171-0.021-0.25-0.067l-2-1.155c-0.239-0.138-0.321-0.444-0.183-0.683	c0.138-0.24,0.444-0.32,0.683-0.183l2,1.155c0.239,0.138,0.321,0.444,0.183,0.683C44.341,78.124,44.172,78.213,44,78.213z M40,75.904c-0.085,0-0.171-0.021-0.25-0.067l-11.093-6.404c-0.239-0.138-0.321-0.444-0.183-0.683	c0.138-0.239,0.444-0.319,0.683-0.183l11.093,6.404c0.239,0.138,0.321,0.444,0.183,0.683C40.341,75.814,40.172,75.904,40,75.904z M27,68.398c-0.085,0-0.171-0.021-0.25-0.067l-2.105-1.215c-1.323-0.764-2.145-2.187-2.145-3.715V46c0-0.276,0.224-0.5,0.5-0.5	s0.5,0.224,0.5,0.5v17.401c0,1.171,0.63,2.263,1.645,2.849l2.105,1.215c0.239,0.138,0.321,0.444,0.183,0.683	C27.341,68.309,27.172,68.398,27,68.398z M23,44.5c-0.276,0-0.5-0.224-0.5-0.5v-3c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v3	C23.5,44.276,23.276,44.5,23,44.5z M23,39.5c-0.276,0-0.5-0.224-0.5-0.5v-2.4c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5V39	C23.5,39.276,23.276,39.5,23,39.5z"></path><path fill="#1f212b" 
+                    d="M77.855,28.553l-23.21-13.399c-2.816-1.627-6.466-1.629-9.29,0l-23.211,13.4	C19.279,30.209,17.5,33.292,17.5,36.6v26.802c0,3.308,1.779,6.391,4.645,8.045l23.212,13.4c1.412,0.814,3.018,1.245,4.644,1.245	c1.628,0,3.234-0.431,4.645-1.245l23.211-13.4c2.864-1.653,4.645-4.735,4.645-8.045V36.6C82.5,33.291,80.721,30.208,77.855,28.553z M46.355,83.114l-23.211-13.4c-2.248-1.298-3.645-3.716-3.645-6.312V36.6c0-2.596,1.396-5.015,3.645-6.314l23.211-13.399	c1.107-0.639,2.367-0.977,3.645-0.977c1.279,0,2.539,0.338,3.645,0.977l23.211,13.399c1.051,0.607,1.906,1.465,2.529,2.465	c-0.907-0.355-1.911-0.317-2.785,0.169L53.104,45.974c-2.223,1.234-3.604,3.58-3.604,6.122v30.022c0,0.738,0.282,1.417,0.763,1.939	C48.909,84.104,47.541,83.798,46.355,83.114z M76.855,69.714l-23.211,13.4c-0.6,0.346-1.249,0.591-1.918,0.749	c-0.101-0.038-0.204-0.072-0.3-0.129c-0.58-0.341-0.926-0.946-0.926-1.617V52.096c0-2.179,1.184-4.19,3.09-5.248l23.496-13.054	c0.351-0.195,0.733-0.292,1.116-0.292c0.4,0,0.801,0.107,1.164,0.32c0.417,0.245,0.719,0.609,0.911,1.028	c0.141,0.567,0.223,1.153,0.223,1.75v26.802C80.5,65.999,79.104,68.417,76.855,69.714z"></path>
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">Linux</h5>
+              <p class="card-text">Uso distribuições linux todos os dias, e vivo no terminal. Além disso, estou acostumado a escrever scripts para automatizar as minhas tarefas comuns e estou otimizando o meu set-up constantemente</p>
+              <p class="card-text">Distribuições e ferramentas que eu sei usar com confiança:</p>
+              <ul class="list-group">
+                <li  class="list-group-item"><i class="fa-solid fa-terminal"></i> Terminal </li>
+                <li  class="list-group-item"><i class="fa-brands fa-fedora"></i> Fedora Linux </li>
+                <li  class="list-group-item"> Bash scripting </li>
+              </ul>
+            </div>
+            <!--<div class="card-footer">-->
+              <!--<small class="text-muted">Last updated 3 mins ago</small>-->
+            <!--</div>-->
+          </div>
         </div>
-        <div class="col-md-1">
-          <h2 class="badge rounded-pill bg-secondary">Desenvolvimento de sistemas embarcados (arduino)</span>
+        <div class="col">
+          <div class="card h-100 text-center border-light">
+            <!--<img src="./img/grey.jpg" class="card-img-top" alt="...">-->
+            <svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="132" viewBox="0 0 48 48">
+              <path fill="#8bc34a" d="M43.982,23.635c0.069-4.261-0.891-9.328-2.891-15.273l-1.568-4.662l-2.13,4.433 c-0.114,0.237-0.244,0.469-0.38,0.698C33.514,5.827,28.974,4,24,4C12.954,4,4,12.954,4,24c0,11.046,8.954,20,20,20s20-8.954,20-20 C44,23.877,43.984,23.758,43.982,23.635z"></path><path fill="#fff" d="M39.385 32.558c-3.123 4.302-8.651 4.533-13.854 4.442H18.75h-1.938c4.428-1.593 7.063-1.972 9.754-3.4 5.068-2.665 10.078-8.496 11.121-14.562-1.93 5.836-7.779 10.85-13.109 12.889-3.652 1.393-10.248 2.745-10.248 2.745l-.267-.145C9.573 32.268 9.437 22.214 17.6 18.968c3.574-1.423 6.993-.641 10.854-1.593 4.122-1.012 8.89-4.208 10.83-8.375C41.456 15.667 44.07 26.106 39.385 32.558L39.385 32.558zM15.668 38.445C15.386 38.795 14.955 39 14.505 39c-.823 0-1.495-.677-1.495-1.5s.677-1.5 1.495-1.5c.341 0 .677.118.941.336C16.086 36.855 16.186 37.805 15.668 38.445L15.668 38.445z"></path>
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento back-end</h5>
+              <p class="card-text">Desenvolvo ferramentas de back-end, como APIs e autenticação de usuário.</p>
+              <p class="card-text">frameworks e linguagens que eu já conheço:</p>
+              <ul class="list-group">
+                <li  class="list-group-item"><i class="fa-brands fa-java"></i> Java/Spring-boot </li>
+                <li  class="list-group-item"><i class="fa-brands fa-js"></i> Javascript/Nodejs </li>
+                <li  class="list-group-item"><i class="fa-brands fa-golang"></i> Go </li>
+                <li  class="list-group-item"> Express.js </li>
+                <li  class="list-group-item">MongoDB </li>
+              </ul>
+            </div>
+            <!--<div class="card-footer">-->
+              <!--<small class="text-muted">Last updated 3 mins ago</small>-->
+            <!--</div>-->
+          </div>
         </div>
-        <div class="col-md-1">
-          <h2 class="badge rounded-pill bg-success">Programação Web</span>
+        <div class="col">
+          <div class="card h-100 text-center border-light">
+            <img src="./img/frontend.png" class="card-img-top" alt="...">
+            <!--<svg class="card-img-top" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">-->
+              <!--<path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>-->
+            <!--</svg>-->
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento front-end</h5>
+              <p class="card-text">Tenho experiência com desenvolvimento front-end, tendo escrito vários sites com diversas ferramentas, além fazer os meus próprios do zero.</p>
+              <p class="card-text">ferramentas que estou familiarizado com:</p>
+              <ul class="list-group">
+                <li  class="list-group-item"><i class="fa-brands fa-bootstrap"></i>Bootstrap </li>
+                <li  class="list-group-item"><i class="fa-brands fa-sass"></i>Sass/Scss </li>
+                <li  class="list-group-item"><i class="fa-brands fa-react"></i>React </li>
+                <li  class="list-group-item">Pug </li>
+                <li  class="list-group-item">Electron </li>
+              </ul>
+            </div>
+            <!--<div class="card-footer">-->
+              <!--<small class="text-muted">Last updated 3 mins ago</small>-->
+            <!--</div>-->
+          </div>
         </div>
       </div>
     </section>
+
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -159,7 +245,7 @@
                 <small>Mensagem</small>
                 <textarea name="message" cols="30" rows="4" class="form-control"></textarea>
               </div>
-              <button type="submit" class="btn btn-brand">Send</button>
+              <button type="submit" class="btn btn-brand">Enviar</button>
             </form>
           </div>
           <div class="col-lg-6">
@@ -169,6 +255,7 @@
           </div>
         </div>
     </section>
+
     <footer>
       <div class="container">
         <div class="row justify-content-between gy-4">
@@ -178,7 +265,7 @@
           </div>
           <div class="col-auto">
             <div class="social-icons">
-              <a href="https://github.com/Phillip-Etec" class="fa fa-github"></a>
+              <a href="https://github.com/Phillip-Etec" class="fa-brands fa-github"></a>
               <!--<a href="#" class="fa fa-twitter"></a>-->
               <!--<a href="#" class="fa fa-instagram"></a>-->
               <!--<a href="#" class="fa fa-reddit"></a>-->
@@ -187,6 +274,7 @@
         </div>
       </div>
     </footer>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
